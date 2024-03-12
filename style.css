@@ -19,7 +19,7 @@
 
 }
 .heder{
-    background-color: white;
+    background-color: whi;
     box-shadow: 1px 1px 4px black;
     height: 6em;
     justify-content: space-between;
@@ -28,6 +28,7 @@
 .paginas{
     gap: 3em;
     z-index: 1;
+    color: white;
     
     
 
@@ -38,6 +39,13 @@
     transition: 1s;
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
+   
+}
+.paginas a::after{
+    content: " ";
+    width: 100%;
+    height: 4px;
+    background-color: #000000;
 }
 .inicio{
     background-color: var(--color-dark4);
@@ -65,7 +73,7 @@
     .botão{
         display: block;
     }
-    
+  
 
     
     
@@ -73,9 +81,9 @@
         position: absolute;
         flex-direction: column;
         top: 0;
-        background-color: green;
+        background-color: white;
         height: 100%;
-        width: 35vw;
+        width: 80%;
         padding: 1em;
         animation-duration: 1s;
         margin-left: -100vw;
